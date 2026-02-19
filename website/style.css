@@ -86,7 +86,7 @@ h4,
 
 .btn-text {
     text-decoration: none;
-    color: var(--primary-kalm);
+    color: var(--accent-gold);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -175,6 +175,7 @@ h4,
     margin-left: 5px;
     vertical-align: middle;
     transition: transform 0.3s ease;
+    color: var(--accent-gold);
 }
 
 .dropdown {
@@ -233,7 +234,7 @@ h4,
 .navbar .logo {
     font-size: 2rem;
     letter-spacing: 8px;
-    color: var(--primary-kalm);
+    color: var(--accent-gold);
 }
 
 .nav-left ul,
@@ -245,7 +246,7 @@ h4,
 
 .navbar a {
     text-decoration: none;
-    color: var(--primary-kalm);
+    color: var(--accent-gold);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
