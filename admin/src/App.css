@@ -1,0 +1,17 @@
+/* Base Admin Styles */
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-item-hover:hover {
+    background-color: #D4AF3722 !important;
+    color: #D4AF37 !important;
+}
+
+table th,
+table td {
+    padding: 15px;
+}

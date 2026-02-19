@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquire | Honeywell Catering</title>
+    <meta name="description"
+        content="Allow us to curate your next unforgettable experience. Contact the Honeywell Catering concierge team.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar centered-nav">
+        <div class="nav-left">
+            <nav>
+                <ul>
+                    <li class="has-dropdown">
+                        <a href="events.html">Events <span class="arrow">↓</span></a>
+                        <ul class="dropdown">
+                            <li><a href="events.html">Overview</a></li>
+                            <li><a href="corporate.html">Corporate</a></li>
+                            <li><a href="private.html">Private</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="weddings.html">Weddings</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">HONEYWELL</a></div>
+        <div class="nav-right">
+            <nav>
+                <ul>
+                    <li class="has-dropdown">
+                        <a href="about.html">About <span class="arrow">↓</span></a>
+                        <ul class="dropdown">
+                            <li><a href="about.html#overview">Overview</a></li>
+                            <li><a href="about.html#team">Meet the Team</a></li>
+                            <li><a href="about.html#philosophy">Philosophy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="journal.html">Journal</a></li>
+                    <li><a href="contact.html" class="btn-text active-page">Enquire</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-kalm">
+        <video autoplay muted loop playsinline class="video-bg">
+            <source src="media/serve.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay">
+            <h1 class="display-title reveal" style="color: white;">Enquire</h1>
+            <p class="subtitle reveal" style="color: white; opacity: 0.8;">Allow us to curate your next unforgettable
+                experience</p>
+        </div>
+    </section>
+
+    <section class="booking">
+        <div class="container split">
+            <div class="booking-text reveal">
+                <h2 class="section-subtitle">Connect</h2>
+                <h3 class="section-title left">Plan Your Event</h3>
+                <p>We invite you to share the details of your upcoming celebration. Our dedicated concierge team will
+                    review your enquiry and respond within 24 hours.</p>
+                <div class="contact-details">
+                    <p><strong>Lagos Office</strong><br>12 Victoria Island, Lagos</p>
+                    <p><strong>Email</strong><br>concierge@honeywellcatering.com</p>
+                </div>
+            </div>
+            <div class="booking-container reveal">
+                <form id="booking-form" class="booking-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label>Event Type</label>
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="corporate">Corporate Gala</option>
+                            <option value="wedding">Luxury Wedding</option>
+                            <option value="private">Private Dining</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>Estimated Guests</label>
+                        <input type="number" placeholder="Number of Guests">
+                    </div>
+                    <div class="input-group">
+                        <label>Event Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="input-group">
+                        <label>Tell us more</label>
+                        <textarea placeholder="Your Vision..." rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-text">Transmit Request →</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-kalm">
+        <div class="container footer-grid">
+            <div class="footer-col reveal">
+                <div class="logo">HONEYWELL</div>
+                <p>Curating landmarks in culinary history since 1998.</p>
+            </div>
+            <div class="footer-col reveal">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="events.html">Events Overview</a></li>
+                    <li><a href="corporate.html">Corporate</a></li>
+                    <li><a href="private.html">Private</a></li>
+                    <li><a href="weddings.html">Weddings</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="journal.html">Journal</a></li>
+                    <li><a href="contact.html">Enquire</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal">
+                <h4>Newsletter</h4>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email Address">
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
