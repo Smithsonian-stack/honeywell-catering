@@ -600,10 +600,11 @@ cite {
 }
 
 .footer-col .logo {
-    color: var(--white);
+    color: var(--accent-gold);
     margin-bottom: 30px;
     font-size: 1.8rem;
     letter-spacing: 6px;
+    font-weight: 700;
 }
 
 .footer-col h4 {
@@ -650,9 +651,14 @@ cite {
 .newsletter-form button {
     background: transparent;
     border: none;
-    color: var(--white);
+    color: var(--accent-gold);
     cursor: pointer;
     font-size: 1.2rem;
+    transition: var(--transition-fast);
+}
+
+.newsletter-form button:hover {
+    transform: translateX(5px);
 }
 
 /* Booking & Form Section */
